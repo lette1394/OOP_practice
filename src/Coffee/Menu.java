@@ -11,10 +11,10 @@ public class Menu {
 
         List<MenuItem> initial = new ArrayList<>(
                 Arrays.asList(
-                    new MenuItem("아메리카노", 4500),
-                    new MenuItem("카푸치노", 3500),
-                    new MenuItem("프라프치노", 6000),
-                    new MenuItem("허니브레드", 8000)
+                    new CoffeeMenuItem("아메리카노", 4500),
+                    new CoffeeMenuItem("카푸치노", 3500),
+                    new CoffeeMenuItem("프라프치노", 6000),
+                    new CoffeeMenuItem("허니브레드", 8000)
                 )
         );
 
@@ -29,6 +29,6 @@ public class Menu {
             }
         }
 
-        return new MenuItem("", 0);
+        return NullMenuItem.getInstance();
     }
 }

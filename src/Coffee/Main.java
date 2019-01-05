@@ -10,6 +10,9 @@ public class Main {
         customer.order("아메리카노");
         customer.drink();
 
+        customer.order("프라프치노");
+        customer.drink();
+
         customer.order("없는메뉴");
         customer.drink();
     }
