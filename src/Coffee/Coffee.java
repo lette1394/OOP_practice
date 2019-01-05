@@ -1,5 +1,22 @@
 package Coffee;
 
 public class Coffee {
-    public Coffee(MenuItem menuItem) {}
+    private MenuItem menuItem;
+
+    public Coffee(MenuItem menuItem) {
+        this.menuItem = menuItem;
+    }
+
+    public String getName() {
+        return menuItem.getName();
+    }
+
+    public int price() {
+        return menuItem.cost();
+    }
+
+    @Override
+    public String toString() {
+        return menuItem.toString();
+    }
 }
