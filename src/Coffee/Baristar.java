@@ -1,5 +1,5 @@
 package Coffee;
 
-public interface Baristar {
-    Coffee makeCoffee(MenuItem item);
+public class Baristar {
+    public Coffee makeCoffee(MenuItem menuItem) {return null;}
 }

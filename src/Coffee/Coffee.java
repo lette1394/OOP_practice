@@ -1,5 +1,5 @@
 package Coffee;
 
-public interface Coffee {
-    Coffee make(MenuItem item);
+public class Coffee {
+    public Coffee(MenuItem menuItem) {}
 }

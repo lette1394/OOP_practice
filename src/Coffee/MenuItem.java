@@ -1,4 +1,4 @@
 package Coffee;
 
-public interface MenuItem {
+public class MenuItem {
 }
